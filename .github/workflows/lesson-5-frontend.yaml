@@ -12,7 +12,7 @@ jobs:
       - name: Runs ZAP Scan
         uses: zaproxy/action-baseline@v0.15.0
         with:
-          target: 'https://hangryhippo.qunatic.host'
+          target: 'https://hangryhippo.quantic.host'
 #  function_test: (commented out to save learner time)
 #    runs-on: ubuntu-latest
 #    defaults:
